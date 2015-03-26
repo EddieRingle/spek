@@ -34,3 +34,4 @@ lib/kotlin-runtime.jar
 */target/*
 .idea/dictionaries/*
 gradle.properties
+.idea/libraries
