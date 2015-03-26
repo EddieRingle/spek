@@ -43,5 +43,5 @@ out/
 .DS_Store/
 lib/kotlin-runtime.jar
 */target/*
-gradle.properties
 local.properties
+annotations/
