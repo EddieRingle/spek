@@ -9,7 +9,7 @@ import org.jetbrains.spek.*
 import org.jetbrains.spek.api.*
 
 data class JUnitUniqueId(val id: Int) : Serializable {
-    class object {
+    companion object {
         var id = 0
         fun next() = JUnitUniqueId(id++)
     }
