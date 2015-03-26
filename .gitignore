@@ -3,6 +3,19 @@
 target
 classes/
 
+# IntelliJ
+
+*.iml
+*.ipr
+*.iws
+
+.idea/
+
+# Allow a few IDEA configs
+!.idea/codeStyleSettings.xml
+!.idea/copyright/
+!.idea/inspectionProfiles/
+
 # OS / App generated files
 .DS_Store*
 ehthumbs.db
@@ -14,7 +27,6 @@ Thumbs.db
 build/
 .gradle/
 *build/artifacts
-.idea/artifacts
 bin/
 obj/
 _ReSharper.*
@@ -27,13 +39,9 @@ out/
 *.user
 *.dotsettings
 *.dotsettings.*
-.idea/workspace.xml
 ~$*
 .DS_Store/
 lib/kotlin-runtime.jar
 */target/*
-.idea/dictionaries/*
 gradle.properties
-.idea/libraries
-.idea/misc.xml
 local.properties
