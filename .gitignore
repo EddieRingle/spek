@@ -35,3 +35,4 @@ lib/kotlin-runtime.jar
 .idea/dictionaries/*
 gradle.properties
 .idea/libraries
+.idea/misc.xml
