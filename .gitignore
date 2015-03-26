@@ -36,3 +36,4 @@ lib/kotlin-runtime.jar
 gradle.properties
 .idea/libraries
 .idea/misc.xml
+local.properties
